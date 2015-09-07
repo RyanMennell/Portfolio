@@ -4444,7 +4444,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
-  background-color: #1a242f;
+  /* Active Page or Section */
+  background-color: #E9F1F7;
   color: #ffffff;
 }
 @media (max-width: 767px) {
