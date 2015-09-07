@@ -4,6 +4,27 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+ /*Ryan's Changes */
+ @media (min-width: 768px){
+    .navbar-nav{
+        float:none;
+        margin: 0 auto;
+        display: table;
+        table-layout: fixed;
+    }
+}
+.navbar-default{
+  background-color: #fff;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #999999;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #18bc9c;
+  background-color: transparent;
+}
+
 body {
     overflow-x: hidden;
 }
@@ -63,7 +84,7 @@ hr.star-light {
 
 hr.star-light:after {
     color: #fff;
-    background-color: #18bc9c;
+    background-color: #999999;
 }
 
 hr.star-primary {
@@ -82,7 +103,7 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: #18bc9c;
+    background: #999999;
 }
 
 header .container {
@@ -181,7 +202,7 @@ section h2 {
 
 section.success {
     color: #fff;
-    background: #18bc9c;
+    background: #999999;
 }
 
 section.success a,
